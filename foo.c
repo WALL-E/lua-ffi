@@ -2,6 +2,6 @@
 
 void foo(void)
 {
-    printf("this is foo\n");
+    printf("foo,foo,foo\n");
 }
 
