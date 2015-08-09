@@ -3,7 +3,13 @@
 
 int main(int argc, char* argv[])
 {
-    printf("hello,workd!\n");
-    foo();
+    int len = 100;
+    char buf[] = "this is a test";
+
+    foo_a(len);
+    foo_b("this is a test");
+    foo_c(&len, buf);
+
+    return 0;
 }
 

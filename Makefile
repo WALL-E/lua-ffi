@@ -9,3 +9,6 @@ clean:
 
 test:
 	./a.out
+
+lua:
+	luajit ffi.lua
