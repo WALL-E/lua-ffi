@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"foo.h"
 
 void foo_a(int len)
 {
@@ -16,4 +17,9 @@ void foo_c(int *len, char *buf)
     printf("%s\n", buf);
     *len = 10;
     snprintf(buf, *len+1, "%s", "hello, world, abcdefghijklmnopq");
+}
+
+void foo_d(struct user *u)
+{
+    printf("%d\n", u->age);
 }
